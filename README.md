@@ -36,3 +36,6 @@ Docker container logs
 - Using UV as the dependency manager for faster package installation, allowing millisecond-level dependency installation on restart
 - Third-party dependencies can be installed following the official method: simply add required dependencies to `/docker/volumes/sandbox/dependencies/python-requirements.txt` and restart the sandbox
 - The image only contains FastAPI-related dependencies. Any additional dependencies you need must be manually added to python-requirements.txt
+
+## Original Repo:
+https://github.com/svcvit/dify-sandbox-py
